@@ -1,20 +1,20 @@
 #include <stdio.h>
 
 /**
- * main - main function
+ * main - Entry point
  *
- * Return: always 0
+ * Return: Always 0 on Success
  */
-
 int main(void)
 {
-	int i;
-	char j;
+	char c = 48;
 
-	for (i = 0 ; i < 10 ; i++)
-	int putchar (i + "0");
-	for (j = 'a' ; j <= 'f' ; j++)
-		int putchar(j);
-	putchar("\n");
+	for (; c <= 57; c++)
+		putchar(c);
+
+	for (c = 'a'; c <= 'f'; c++)
+		putchar(c);
+
+	putchar('\n');
 	return (0);
 }
